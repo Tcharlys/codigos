@@ -13,21 +13,18 @@ int main()
     
     if (X+Y>Z && X+Z>Y && Y+Z>X)
     {
-        printf("\nOs lados informados forman um triângulo\n");
             if (X==Y && Y==Z && Z==X)
             {
-                printf("\nTRIÂNGULO EQUILÁTERO\n");
-                if (X==Y ||)
+                printf("\nos lados forman um TRIÂNGULO EQUILÁTERO\n");
+                if (X==Y || X==Z)
                 {
-                    printf("\nTRIÂNGULO ISÓSCELESn");
+                    printf("\nos lados forman um TRIÂNGULO ISÓSCELESn");
                 }                
                 else if (X!=Y && X!=Z && Y!=Z)
                 {
-                    printf("\nTRIÂNGULO ESCALENO\n")
+                    printf("\nos lados forman um TRIÂNGULO ESCALENO\n");
                 }
-            
             }
-            
     }
     
     return 0;
