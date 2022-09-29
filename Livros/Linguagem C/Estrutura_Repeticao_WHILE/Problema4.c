@@ -13,11 +13,11 @@ int main()
 
         while (n<9)
         {
-            printf("\n%d*%d=%d\n", i, n, n*i);
+            printf("%d*%d=%d\n", i, n, n*i);
             n++;
         }
         
-        printf("%d*%d=%d\n", i, n, n*i);
+        printf("%d*%d=%d\n\n", i, n, n*i);
         i++;
     }
 
