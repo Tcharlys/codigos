@@ -8,7 +8,7 @@ int main()
     int i;
     float nota1, nota2, nota3, media;
 
-    for (i=0; i<=10; i++)
+    for (i=0 ; i<10 ; i++)
     {
         printf("Digite a nota da 1ª AVALIAÇÃO\n");
         scanf("%f", &nota1);

@@ -7,7 +7,7 @@ int main()
 
     int i;
 
-    for (i = 0; i <= 500; i++)
+    for (i=500 ; i>0 ; i--)
     {
         printf("\n%d", i);
     }    
