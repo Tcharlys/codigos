@@ -10,21 +10,20 @@ int main()
     printf("Informe um número qualquer\n\n");
     scanf("%d", &n);    
     
-    while (n>=0)
+    for (i=n ; i>=1 ; i--)
     {
-        for (i=n ; i>=0 ; --i)
-        {
-            fatorial=fatorial*i;
-        }
+        //fatorial=(i*fatorial);
+        fatorial*=i;
     }
-        if (n>=0)
-        {
-            printf("\n%d!=%d\n\n", n, fatorial);
-        }
-        else
-        {
-            printf("\nNão existe fatorial de número negativo\n\n");
-        }
+    
+    if (n>=0)
+    {
+        printf("\n%d!=%d\n\n", n, fatorial);
+    }
+    else
+    {
+        printf("\nNão existe fatorial de número negativo\n\n");
+    }
     
     return 0;
 }
