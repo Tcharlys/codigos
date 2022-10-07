@@ -8,7 +8,7 @@ int main()
     int x, y, n, d, divisores=0;
 
     printf("Informe dois Nº NATURAIS > 0\n");
-    scanf("%d %d\n", &x, &y);
+    scanf(" %d %d", &x, &y);
     
     for ( n=x ; n<=y ; n++, divisores=0)
     {
@@ -19,8 +19,6 @@ int main()
                 divisores++;
             }
         }
-
-        puts("");
 
         if (divisores==2)
         {
