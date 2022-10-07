@@ -9,7 +9,7 @@ int main()
 	
 	for(cont=1 ; cont<=10 ; cont++)
 	{
-		printf("Digite um n�mero inteiro positivo");
+		printf("Digite um número inteiro positivo");
 		scanf(" %d", &menor);
 		
 		if(maior < menor)
@@ -19,7 +19,7 @@ int main()
 		}
 	}
 	
-	printf("Maior N� %d\nNa posicao %d", maior, cont);
+	printf("Maior Nº %d\nNa posição %d", maior, cont);
 		
 	return 0;
 }

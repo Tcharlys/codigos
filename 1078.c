@@ -9,7 +9,7 @@ int main()
 	
 	scanf("%d", &n);
 	
-	for(cont=1 ; cont<=10 ; cont++)
+	for(cont=1 ; cont<=n ; cont++)
 	{
 		produto=cont*n;
 		
