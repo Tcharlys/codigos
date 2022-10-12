@@ -2,6 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/* 1. Implemente uma função, sem retorno, que recebe um valor inteiro por parâmetro e
+informa se é, ou não, igual a zero. */
+
 igualazero()
 {
     int n;
