@@ -5,18 +5,13 @@
 /* 4. Faça uma função, sem retorno, que recebe a idade do usuário por parâmetro, verifica 
 e informa se ele é maior de idade ou não. */
 
-idade()
+idade( int anos)
 {
-    int idade;
-
-    printf("Quantos anos você tem?\n");
-    scanf(" %d", &idade);
-
-    if (idade>=18)
+    if (anos>=18)
     {
         printf("Você é MAIOR de idade.\n");
     }
-    else if (idade<18)
+    else if (anos<18)
     {
         printf("Você é MENOR de idade.\n");
     }
@@ -27,7 +22,12 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    idade();
+    int anos;
+
+    printf("Quantos anos você tem?\n");
+    scanf(" %d", &anos);
+
+    idade(anos);
 
     system("pause");
     return (0);

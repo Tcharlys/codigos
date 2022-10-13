@@ -5,13 +5,8 @@
 /* 2. Crie uma função, sem retorno, que recebe um valor inteiro por parâmetro e informa 
 se ele é positivo, negativo ou neutro. */
 
-num()
+num( int n )
 {
-    int n;
-
-    printf("Digite um número qualquer\n");
-    scanf(" %d", &n);
-
     if (n>0)
     {
         printf("O número digitado é POSITIVO\n");
@@ -32,7 +27,12 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    num();
+    int n;
+
+    printf("Digite um número qualquer\n");
+    scanf(" %d", &n);
+
+    num(n);
 
     system("pause");
     return (0);

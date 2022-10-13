@@ -5,13 +5,8 @@
 /* 3. Faça uma função, sem retorno, que recebe um valor inteiro por parâmetro, verifica e 
 informa se tal número é par ou ímpar. */
 
-par_impar()
+par_impar( int n )
 {
-    int n;
-
-    printf("Digite um número\n");
-    scanf(" %d", &n);
-
     if (n%2==0)
     {
         printf("O Nº digitado é PAR\n");
@@ -27,7 +22,12 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    par_impar();
+    int n;
+
+    printf("Digite um número\n");
+    scanf(" %d", &n);
+
+    par_impar(n);
 
     system("pause");
     return (0);

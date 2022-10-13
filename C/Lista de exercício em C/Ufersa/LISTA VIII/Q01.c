@@ -5,14 +5,9 @@
 /* 1. Implemente uma função, sem retorno, que recebe um valor inteiro por parâmetro e
 informa se é, ou não, igual a zero. */
 
-igualazero()
+igualazero( int n )
 {
-    int n;
-
-    printf("Digite um número\n");
-    scanf(" %d", &n);
-
-    if (n=0)
+    if (n==0)
     {
         printf("O número digitado é igual a 0\n");
     }
@@ -27,7 +22,12 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    igualazero();
+    int n;
+
+    printf("Digite um número\n");
+    scanf(" %d", &n);
+
+    igualazero(n);
 
     system("pause");
     return (0);
