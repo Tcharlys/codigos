@@ -34,17 +34,17 @@ conceito( float resultado_main)
     
     if ((resultado_main >= 6) && (resultado_main < 7))
     {
-        printf("Média -> %.2f\nConceito -> A\n", resultado_main);
+        printf("Média -> %.2f\nConceito -> C\n", resultado_main);
     }
     
     if ((resultado_main >= 4) && (resultado_main < 6))
     {
-        printf("Média -> %.2f\nConceito -> A\n", resultado_main);
+        printf("Média -> %.2f\nConceito -> D\n", resultado_main);
     }
     
     if (resultado_main < 4)
     {
-        printf("Média -> %.2f\nConceito -> A\n", resultado_main);    
+        printf("Média -> %.2f\nConceito -> E\n", resultado_main);    
     }
     
 }
