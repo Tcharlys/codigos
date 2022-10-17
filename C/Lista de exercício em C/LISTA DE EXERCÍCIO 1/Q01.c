@@ -7,7 +7,7 @@ correspondente em decímetros, centímetros e milímetros. */
 void main()
 {
 
-setlocale(LC_ALL,"");
+setlocale(LC_ALL," ");
 
 float metros;
 float decimetros;
