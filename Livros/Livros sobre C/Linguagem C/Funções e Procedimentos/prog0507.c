@@ -13,11 +13,9 @@ float soma( float n1, float n2)
 
 float dobro( float n )
 {
-    return( n
-    
-    *2 );
-
+    return( n*2 );
 }
+
 int main()
 {
     setlocale(LC_ALL, " ");
@@ -26,8 +24,6 @@ int main()
 
     printf("Digite dois números quaisquer\n");
     scanf(" %f %f", &n1, &n2);
-
-    soma(n1, n2);
 
     resultado_soma=soma(n1, n2);
 

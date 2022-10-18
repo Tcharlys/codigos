@@ -5,8 +5,8 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-
+    
 
     getchar();
-    return (0);
+    return(0);
 }
