@@ -23,12 +23,12 @@ int main()
     {
         scanf(" %f", &a[i]);
         
-        if (i=0)
+        if (i==0)
         {
             b[i] = a[i];
         }
 
-        if (i%2==0)
+        if ((i>0) && (i%2==0))
         {
             b[i] = 5 * a[i];
         }
@@ -36,8 +36,8 @@ int main()
         if (i%2!=0)
         {
             b[i] = a[i] + 5;
+        
         }        
-
     }
 
     for ( i = 0; i < 5; i++)
