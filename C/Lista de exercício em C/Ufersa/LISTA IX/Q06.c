@@ -17,18 +17,23 @@ int main()
     {
         scanf(" %d", &v1[i]);
         
-        for ( cont = 0; cont < v1[i]; cont++)
+        for ( cont = 1; cont <= v1[i]; cont++)
         {
-            fatorial*=cont;
+            if (v1[i] >= 1)
+            {
+                fatorial*=cont;
 
-            v2[i]=fatorial;
+                v2[i]=fatorial;
+            }
+            
+
         }
     }
     
     for ( i = 0; i < 5; i++)
     {
-        printf("Vetor v1[%d]=%f\n", i, v1[i]);
-        printf("Vetor v2[%d]=%f!\n", i, v2[i]);
+        printf("Vetor v1[%d]=%d\n", i, v1[i]);
+        printf("Vetor v2[%d]=%d\n", i, v2[i]);
     }
     
     return(0);
