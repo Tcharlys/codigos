@@ -20,9 +20,56 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    int A[ ][ ], B[ ][ ], i, j;
+    int i, j, n, m;
 
-    printf("Digite o tamnho da matriz -> NxM\n");
-    scanf("")
+    printf("Digite a quantidade de linhas da matriz\n");
+    scanf(" %d", &n);
+
+    printf("Digite a quantidade de colunas da matriz\n");
+    scanf(" %d", &m);
+
+    int A[n][m], B[n][m];
+
+    printf("informe os números\n");
+    
+    for ( i = 0; i < n; i++)
+    {    
+        for ( j = 0; j < m; j++)
+        {
+            scanf(" %d", &A[i][j]);
+        }   
+    }
+    
+    for ( i = 0; i < n; i++)
+    {
+        for ( j = 0; j < m; j++)
+        {
+            B[i][j]=A[i][j]*3;
+        }
+    }
+    
+    printf(" Matriz A\n");
+
+    for ( i = 0; i < m; i++)
+    {
+        for ( j = 0; j < m; j++)
+        {
+            printf(" %d", A[i][j]);
+        }
+        printf("\n");
+    }
+    
+    printf(" Matriz B\n");
+
+    for ( i = 0; i < m; i++)
+    {
+        for ( j = 0; j < m; j++)
+        {
+            printf(" %d", B[i][j]);
+        }
+        printf("\n");
+    }
+    
+    getchar();
     return(0);
 }
