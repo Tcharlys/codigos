@@ -9,7 +9,16 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
+    char a[];
+    int i;
 
+while (/* condition */)
+{
+    /* code */
+}
+
+    
+    
 
     return(0);
 }
