@@ -17,7 +17,7 @@ int main()
     {
         scanf(" %d", &v[i]);
         
-        soma= v[i] + soma;
+        soma=v[i] + soma;
     }
 
     printf("Soma -> %d\n", soma);

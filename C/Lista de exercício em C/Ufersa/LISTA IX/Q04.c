@@ -15,12 +15,11 @@ int main()
     for ( i = 0; i < 10; i++)
     {
         scanf(" %d", &e[i]);
-
     }
     
     maior=e[0];    
         
-    for ( i = 0; i < 10; i++)
+    for ( i = 1; i < 10; i++)
     {
         if (e[i] > maior)
         {

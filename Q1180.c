@@ -10,16 +10,15 @@ int main()
 
     int X[n];
 
-    for(i = 0 ; i < n; i++)
+    for( i = 0 ; i < n; i++)
 	{
         scanf(" %d", &X[i]);
 	
-		menor= X[0];
+		menor=X[0];
  	}
     
-	for(i=1; i < n; i++)
+	for( i = 0; i < n; i++)
 	{
-	
 	    if(menor > X[i])
         {
         	menor=X[i];
@@ -28,10 +27,7 @@ int main()
     	}
 	}        
     
-    printf("Menor valor: %d\n", menor);
-        
-    printf("Posicao eh: %d\n", a);
-        
+    printf("Menor valor: %d\nPosicao eh: %d\n", menor, a); 
     
     return 0;
 }
