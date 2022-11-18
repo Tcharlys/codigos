@@ -9,16 +9,16 @@ int main()
 {
     setlocale(LC_ALL, " ");
 
-    char a[];
-    int i;
-
-while (/* condition */)
-{
-    /* code */
-}
-
-    
-    
-
+    char a, i;
+	
+	scanf(" %s", a);
+	
+	char v[a];
+	
+	for( i = 0; i < v; i++)
+	{
+		printf("caractere na posicao: %d\n", i);
+	}
+	
     return(0);
 }

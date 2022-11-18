@@ -50,7 +50,7 @@ int main()
     
     printf(" Matriz A\n");
 
-    for ( i = 0; i < m; i++)
+    for ( i = 0; i < n; i++)
     {
         for ( j = 0; j < m; j++)
         {
@@ -61,7 +61,7 @@ int main()
     
     printf(" Matriz B\n");
 
-    for ( i = 0; i < m; i++)
+    for ( i = 0; i < n; i++)
     {
         for ( j = 0; j < m; j++)
         {

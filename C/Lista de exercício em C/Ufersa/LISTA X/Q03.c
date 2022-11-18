@@ -11,6 +11,8 @@ int main()
 
     int A[2][3], B[2][3], linha, coluna, soma=0;
 
+    printf("Preenchendo a matriz A...\n");
+
     for ( linha = 0; linha < 2; linha++)
     {
         for ( coluna = 0; coluna < 3; coluna++)
@@ -18,6 +20,8 @@ int main()
             scanf(" %d", &A[linha][coluna]);
         }
     }
+    
+    printf("Preenchendo a matriz B...\n");
     
     for ( linha = 0; linha < 2; linha++)
     {
@@ -27,15 +31,17 @@ int main()
         }
     }
 
+    printf("Somando as matrizes...\n");
+    
     for ( linha = 0; linha < 2; linha++)
     {
         for ( coluna = 0; coluna < 3; coluna++)
         {
             soma=A[linha][coluna] + B[linha][coluna];
             
-            printf(" A[%d][%d] => %d + B[%d][%d] => %d -> Soma = %d\n", linha, coluna, A[linha][coluna], linha, coluna, B[linha][coluna], soma);
+            printf(" A[%d][%d] => %d + B[%d][%d] => %d -> Soma = %d", linha, coluna, A[linha][coluna], linha, coluna, B[linha][coluna], soma);
         }
-
+        printf("\n");
     }
 
     return(0);
