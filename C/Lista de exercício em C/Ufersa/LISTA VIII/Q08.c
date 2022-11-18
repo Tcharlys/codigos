@@ -25,7 +25,7 @@ int main()
 
     do
     {
-        printf("Digite um número inteiro maior que zero\n");
+        printf("Digite um número inteiro maior ou igual a zero\n");
         scanf(" %d", &n);
 
         resultado_main=fatorial(n);
