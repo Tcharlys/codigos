@@ -2,15 +2,11 @@
 
 int somatorio( int n1, int n2)
 {
-    int n = 0, i;
+    int n, i = 0;
 
-    for ( i = 0; i < n2; i++)
+    for ( i = n1 + 1; i < n2; i++)
     {
-        if ((i > n1) && (i <n2))
-        {
-            i+=i;
-        }
-        
+        i+=i;
     }
     
     return (i);
