@@ -1,0 +1,21 @@
+1. Explique o que é um ponteiro em C e qual a vantagem em se trbalhar com eles.
+	R. 
+
+2. Explique com se declara um ponteiro em C. Cite exemplos.
+	R.
+
+3. Explique a diferença entre o operador de endereço '&' e o operador de conteúdo '*' em C.
+	R.
+
+4. Explique como se acessa o conteúdo apontado por um ponteiro em C e por um ponteiro de ponteiro.
+	R.
+
+5. Explique como se passa um ponteiro como parâmetro para um função em C. Cite exemplos.
+	R.
+6. Explique as diferenças entre ponteiros constantes e ponteiros não constantes em C. Cite exemplos.
+	R.
+
+7. Sabemos que podemos declarar ponteiros para int, float, char e demais tipos existentes na linguagem
+   C. Além disso, podemos também declarar ponteiros para funções. Explique a vantagem em manipular um
+   ponteiro para funções. Cite exemplos.
+	R.
