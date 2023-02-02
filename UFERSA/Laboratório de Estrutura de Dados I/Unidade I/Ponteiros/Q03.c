@@ -48,6 +48,8 @@ int main(){
     printf("Ponteiro: Demonstra o uso de & e operador *\n:");
     printf("--------------------------------------------------------\n");
     printf("m = %d\n", m);
-    printf("")
+    printf("fx = %f\n", fx);
+    printf("cht = %c\n", cht);
+
     return 0;
 }
