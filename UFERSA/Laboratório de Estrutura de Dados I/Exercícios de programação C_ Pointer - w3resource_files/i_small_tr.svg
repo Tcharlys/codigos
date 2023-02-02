@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="15" viewBox="0 0 19 15" version="1.1">
+    <style>
+      .bg{fill:#fff;opacity:0.6;}
+      .ellipse{fill:#4b4b4b;}
+      .icon{fill:none;stroke:#4b4b4b;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+    <path class="bg" d="M0 0L19 0L 19 15L 5 15A5 5 0 0 1 0 10" />
+    <ellipse class="ellipse" ry="1" rx="0.75" cy="5.75" cx="9.5" />
+    <path class="icon" d="M6.5624964 12.58751A 5.875 5.875 0 1 1 9.5 13.375L9.5 8.5L8.5 8.5" />
+</svg>
