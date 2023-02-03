@@ -45,35 +45,11 @@ int main(){
     *p_fx = 300.600006;
     *p_cht = 'z';
 
-    printf("Ponteiro: Demonstra o uso de & e operador *:\n");
+    printf("Ponteiro: Demonstra o uso de & e operador *\n:");
     printf("--------------------------------------------------------\n");
     printf("m = %d\n", m);
     printf("fx = %f\n", fx);
     printf("cht = %c\n", cht);
-
-    printf("\nUsando & operador:\n");
-    printf("--------------------------------------------------------\n");
-    printf("endereco de m = %p\n", &m);
-    printf("endereco de fx = %p\n", &fx);
-    printf("endereco de cht = %p\n", &cht);
-
-    printf("\nUsando o operador & e *:\n");
-    printf("--------------------------------------------------------\n");
-    printf("Valor no endereco de m = %d\n", *(&m));
-    printf("Valor no endereco de fx = %f\n", *(&fx));
-    printf("Valor no endereco de cht = %c\n", *(&cht));
-
-    printf("\nUsando apenas a variavel de ponteiro:\n");
-    printf("--------------------------------------------------------\n");
-    printf("endereco de m = %p\n", p_m);
-    printf("endereo de fx = %p\n", p_fx);
-    printf("endereco de cht = %p\n", p_cht);
-
-    printf("\nUsando apenas o operador de ponteiro:\n");
-    printf("--------------------------------------------------------\n");
-    printf("Valor no endereco de m = %d\n", *p_m);
-    printf("Valor no endereco de fx = %f\n", *p_fx);
-    printf("Valor no endereco de cht = %c\n", *p_cht);
 
     return 0;
 }
