@@ -38,7 +38,10 @@ int main(void){
     {
         scanf(" %[^\n]s", frutas[linha]);
         scanf("%f", &precos[linha]);
+
     }
+    
+    frutas = (char *) realloc(frutas, (strlen(frutas) + 1) * sizeof(char));
     
     for ( linha = 0; linha < qnd_frutas; linha++)
     {
