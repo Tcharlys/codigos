@@ -13,6 +13,24 @@ Os elementos que você inseriu são:
 */
 
 int main(void){
+    int n, i;
+
+    scanf("%d",&n);
+
+    int v_elementos[n], *p_elementos = &v_elementos;
+
+    for ( i = 0; i < n; i++)
+    {
+        scanf("%d",&v_elementos[i]);
+    }
     
+    for ( i = 0; i < n; i++)
+    {
+        p_elementos[i] = v_elementos[i];
+
+        printf("\nelemento - %d : %d\n", i, p_elementos[i]);
+    }
+    
+
     return 0;
 }
